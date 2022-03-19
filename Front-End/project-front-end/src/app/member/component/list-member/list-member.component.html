@@ -1,0 +1,37 @@
+<div class="row container-fluid">
+  <div class="col-xl-12">
+    <table class="table">
+      <thead>
+      <tr>
+
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Identity Number</th>
+        <th scope="col">Email</th>
+        <th scope="col">Phone Number</th>
+        <th scope="col">Address</th>
+
+        <th scope="col">Edit</th>
+
+      </tr>
+      </thead>
+      <tbody>
+
+      <tr *ngFor="let member of members">
+        <th scope="row">{{member.id}}</th>
+        <td>{{member.name}}</td>
+        <td>{{member.identityNumber}}</td>
+        <td>{{member.email}}</td>
+        <td>{{member.phoneNumber}}</td>
+        <td>{{member.address}}</td>
+
+        <td>
+          <!-- mang URL-->
+          <a [routerLink]="['/member/update',member.id]" class="text-dark text-decoration-none">Update Member</a>
+        </td>
+
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
