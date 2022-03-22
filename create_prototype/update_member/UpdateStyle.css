@@ -2,3 +2,8 @@ body {
     font-family: 'Varela Round', sans-serif;
     font-size: 14px;
 }
+
+.form-check-input:checked {
+    background-color: #f28123;
+    border-color: #f28123;
+}

@@ -67,7 +67,7 @@ table.table tr th, table.table tr td {
 }
 
 table.table tr th:first-child {
-    width: 60px;
+    width: 65px;
 }
 
 table.table tr th:last-child {
@@ -174,4 +174,8 @@ table th {
     padding-left: 0 ! important;
     padding-right: 0 ! important;
     text-align: center;
+}
+
+.pagination li.active a, .pagination li.active a.page-link{
+    background-color: #f28123;
 }
