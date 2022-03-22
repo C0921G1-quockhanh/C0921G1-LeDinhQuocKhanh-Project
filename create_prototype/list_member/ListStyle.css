@@ -67,7 +67,7 @@ table.table tr th, table.table tr td {
 }
 
 table.table tr th:first-child {
-    width: 65px;
+    width: 90px;
 }
 
 table.table tr th:last-child {
